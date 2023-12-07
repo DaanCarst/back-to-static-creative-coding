@@ -1,50 +1,41 @@
+<!--
+De conventie voor naamgeving is sprintnaam-(sub)taaknaam
+Topics: (sub)task semester-naam, semesternummer, sprint-naam, sprint-nummer
+-->
 
-# Back to Static - Creative Coding Spike
+# The Client Case
 
-Ontwerp en maak creatieve oplossingen voor de interface.
+Ontwerp en maak een component en/of website voor een opdrachtgever op basis van een bestaande Headless CMS API. 
 
 ## Context
-
-Deze deeltaak hoort bij sprint # 17 Back to Static. Dit is een deeltaak die je in totaal drie keer individueel uitvoert. Bij de sprintplanning wordt de opdracht uitgelegd.
-
-Deze deeltaak hoort bij de leertaak:
-- [back-to-static-site-generation](https://github.com/fdnd-task/back-to-static-static-site-generation)
+Deze leertaak hoort bij sprint 14 :Lose your Head. Dit is een opdracht die je individueel uitvoert voor een opdrachtgever.
 
 ## Doel van deze opdracht
 
-Je leert hoe je met CSS en client-side JS creatieve oplossing voor de interface kan ontwerpen en maken.
+Je leert hoe je aan de hand van een user story een (gedeelte van een) website kan ontwerpen en bouwen op basis van een headless CMS.
 
 ## Werkwijze
+Bij elke leertaak wordt de development-lifecycle doorlopen. Hierdoor ontwikkel je een standaard aanpak voor frontend praktijkvraagstukken, werk je systematisch aan leertaken, ervaar je de relevantie van het geleerde en verwerf je de kennis, houding en vaardigheden die de beroepspraktijk van je vraagt.
+De development lifecycle kent de volgende stappen:
 
-Je gaat werken op een manier die in scrum een *programming spike* wordt genoemd. Een spike is een taak gericht op het beantwoorden van een vraag of het verzamelen van informatie. In plaats van het produceren van een verzendbaar product. Bij sommige taken kan niet goed ingeschat  worden tot het ontwikkelteam daadwerkelijk wat werk verricht om een technische vraag of ontwerpprobleem op te lossen. De oplossing is dan om een zogenaamde 'spike' te creëren.
+1. Analyseren - bijvoorbeeld: grip krijgen op een taak door gesprekken met een opdrachtgever, schrijven van een debriefing, maken van een todo lijst, inventarisatie van bestaande informatie, overzicht creëren, plannen, definition of done etc.
+2. Ontwerpen - bijvoorbeeld: het maken van idee-schetsen, customer journey, breakdown chart, wireflows, navigatiestructuur en layout.
+3. Bouwen - bijvoorbeeld: toepassen van webtechnologie (HTML, CSS, JS), gebruik van tooling, werken volgens conventies en wetgeving, documenteren en bijhouden van een changelog.
+4. Integreren - bijvoorbeeld: publiceren, live zetten, uploaden naar de server, toevoegen in een bestaand systeem, ftp-en.
+5. Testen - bijvoorbeeld: Unit testing (TDD), System test, User test, device lab test, A\B testing.
 
-> Creative coding is a type of computer programming in which the goal is to create something expressive instead of something functional. - [Wikipedia](https://en.wikipedia.org/wiki/Creative_coding)
+### Aanpak
 
-Voor de opdracht van de opdrachtgever ontwerp en maak je creatieve oplossingen voor de interface. Nu de website statisch gegenereerd wordt kun je al je skills inzetten om de interface te verrijken. De bedoeling is dat je gebruikers "oooh" en "aaaah" roepen en niet meer kunnen stoppen met klikken! Of Scrollen! Of gooien!
+1. Kies een user story uit de backlog van het project waar je aan gaat werken, of schrijf een nieuwe user story.  De projecten staan bij [FDND Agency](https://github.com/fdnd-agency).
+2. Maak een fork van [deze leertaak](https://github.com/fdnd-task/lose-your-head-the-client-case).
+3. Kopieer de user story waar jij aan gaat werken naar de Wiki van de geforkte repository. Deze user story ga je gedurende deze sprint beantwoorden/ verwerkelijken/ realiseren. **NB: Een user-story moet vaak nog opgesplitst worden in taken!** 
+4. Plan een gesprek met de opdrachtgever, maak verkennende schetsen en bereid vragen voor en zorg dat je de opdracht helder hebt voor je aan de slag gaat.
+5. Hanteer de fases uit de dev-lifecycle om jouw project in te richten, bespreek vooraf met een docent welke stappen je denkt te gaan hanteren.
+6. Documenteer doorlopend jouw proces aan de hand van de dev-lifecycle, alle (technische en ontwerp) beslissingen dienen onderbouwd te worden en je verwijst naar alle bronnen die je bij de verschillende fases gebruikt hebt.
+7. Schrijf tenslotte een goede `Readme.md` waarme je: 1) kort inzicht geeft in het hoe en waarom van jouw project en 2) developers instructies geeft over hoe jouw project te gebruiken is.
 
-Elke week ontwerp en maak je een creatieve oplossing, welke je op vrijdag gaat testen. Deze sprint ga je in drie *spikes*, 3 experimenten ontwerpen en maken.
 
-## Aanpak
+## Definitions of Done
+Focus sprint 14 - De focus van deze sprint ligt op het grip krijgen van de informatie architectuur van een website.
 
-1. Kies of bedenk een experiment om te gaan maken, gebruik hiervoor de (FDND Conceptroulette)[https://conceptroulette.fdnd.nl/]
-2. Zoek inspiratie op het web en schets (snel) een aantal ideeen uit in een wireflow
-4. Maak een breakdown-schets met hoe je het experiment in code zou kunnen maken
-5. Bouw je experiment en doe een user test op je klasgenoten
-6. Documenteer je proces in de wiki
-7. Checkpoint op vrijdag tijdens de code/design review
-
-### Materiaal
-
-Creative coding Inspiratie
-- [7 secrets for enhancing UX with micro-interactions](https://www.webdesignerdepot.com/2015/07/7-secrets-for-enhancing-ux-with-micro-interactions/)
-- [Site of the day - Awwwards](https://www.awwwards.com/websites/)
-- [Playground Codrops](https://tympanus.net/codrops/category/playground/)
-
-## Criteria
-
-Deze opdracht is done als je (in totaal 3x):
-
-- [ ] Je hebt een creative-coding experiment ontworpen en gemaakt
-- [ ] Je hebt in de wiki van de leertaak je proces gedocumenteerd
-- [ ] Je hebt in de Readme van de leertaak de experimenten gepresenteerd
-
+Deze opdracht is done als:

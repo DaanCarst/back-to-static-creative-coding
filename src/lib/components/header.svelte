@@ -6,7 +6,8 @@
 	// https://kit.svelte.dev/docs/assets
 	import logo from '$lib/assets/vervoerregio_amsterdam_logo.svg';
 	import informationIcon from '$lib/assets/information_icon.svg';
-	import darkmodeIcon from '$lib/assets/dark_mode_icon.svg';
+	import Forest from '$lib/assets/forest.avif';
+	import UnderDark from '$lib/assets/underdark.jpeg';
 
 	import { onMount } from 'svelte';
 
@@ -92,12 +93,73 @@
 			<a href="/info">
 				<img class="information-icon-img" src={informationIcon} alt="information icon" />
 			</a>
-			<img src={darkmodeIcon} alt="darkmode icon" />
+			<label class="switch">
+				<input type="checkbox">
+				<span class="slider round"></span>
+			</label>
 		</section>
 	</nav>
 </header>
 
 <style>
+	/* creative coding */
+	.switch {
+	position: relative;
+	display: inline-block;
+	width: 80px;
+	height: 34px;
+	}
+
+	.switch input {
+	opacity: 0;
+	width: 0;
+	height: 0;
+	}
+
+	.slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-image: url($lib/assets/forest.avif);
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-transition: .4s;
+	transition: .4s;
+	}
+
+	.slider:before {
+	position: absolute;
+	content: "";
+	height: 26px;
+	width: 26px;
+	left: 4px;
+	bottom: 4px;
+	background-color: white;
+	-webkit-transition: .4s;
+	transition: .4s;
+	}
+
+	input:checked + .slider {
+	background-image: url($lib/assets/underdark.webp);
+	}
+
+	input:checked + .slider:before {
+	-webkit-transform: translateX(46px);
+	-ms-transform: translateX(46px);
+	transform: translateX(46px);
+	}
+
+	.slider.round {
+	border-radius: .8em;
+	}
+
+	.slider.round:before {
+	border-radius: 50%;
+	}
+
 	header {
 		position: sticky;
 		top: 0;
