@@ -141,7 +141,7 @@
 	}
 
 	input:checked + .slider {
-	background-image: url($lib/assets/underdark.webp);
+	background-image: url($lib/assets/underdark.jpg);
 	}
 
 	input:checked + .slider:before {
