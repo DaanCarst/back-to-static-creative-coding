@@ -6,8 +6,6 @@
 	// https://kit.svelte.dev/docs/assets
 	import logo from '$lib/assets/vervoerregio_amsterdam_logo.svg';
 	import informationIcon from '$lib/assets/information_icon.svg';
-	import Forest from '$lib/assets/forest.avif';
-	import UnderDark from '$lib/assets/underdark.jpeg';
 
 	import { onMount } from 'svelte';
 
